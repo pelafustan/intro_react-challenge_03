@@ -1,26 +1,26 @@
 export const Colaboradores = [
     {
         id: 1,
-        name: "Juan Soto",
-        email: "juans@colaborador.com",
-        age: "23",
-        position: "Desarrollador FrontEnd",
-        phone: "99887766"
+        nombre: "Juan Soto",
+        correo: "juans@colaborador.com",
+        edad: "23",
+        cargo: "Desarrollador FrontEnd",
+        telefono: "99887766"
     },
     {
         id: 2,
-        name: "Lucas Pailamilla",
-        email: "lucasp@colaborador.com",
-        age: "31",
-        position: "Desarrollador Backend",
-        phone: "88779955"
+        nombre: "Lucas Pailamilla",
+        correo: "lucasp@colaborador.com",
+        edad: "31",
+        cargo: "Desarrollador Backend",
+        telefono: "88779955"
     },
     {
         id: 3,
-        name: "Diego Riquelme",
-        email: "diegor@colaborador.com",
-        age: "28",
-        position: "Ingeniero DevOps",
-        phone: "99226644"
+        nombre: "Diego Riquelme",
+        correo: "diegor@colaborador.com",
+        edad: "28",
+        cargo: "Ingeniero DevOps",
+        telefono: "99226644"
     },
 ];
