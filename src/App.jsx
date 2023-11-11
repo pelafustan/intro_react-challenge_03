@@ -9,6 +9,7 @@ import Buscador from "./components/Buscador";
 import Listado from "./components/Listado";
 import Formulario from "./components/Formulario";
 import Alert from "./components/Alert";
+import { PeopleFill } from "react-bootstrap-icons";
 
 function App() {
   const [colaboradores, setColaboradores] = useState(Colaboradores);
@@ -17,9 +18,10 @@ function App() {
 
   return (
     <>
-      <Container>
+      <h2 className="mb-5">Lista de Colaboradores <PeopleFill /></h2>
+      <Container fluid>
         <Row>
-          <Col>
+          <Col m={12} className="mb-3">
             <Buscador 
               setBusqueda={setBusqueda} 
             />
@@ -29,7 +31,7 @@ function App() {
               setColaboradores={setColaboradores}
             />
           </Col>
-          <Col>
+          <Col m={12} className="mb-3">
             <Formulario 
               colaboradores={colaboradores}
               setAlerta={setAlerta}
