@@ -21,7 +21,7 @@ function App() {
       <h2 className="mb-5">Lista de Colaboradores <PeopleFill /></h2>
       <Container fluid>
         <Row>
-          <Col m={12} className="mb-3">
+          <Col xs={12} m={6} className="mb-3">
             <Buscador 
               setBusqueda={setBusqueda} 
             />
@@ -31,7 +31,7 @@ function App() {
               setColaboradores={setColaboradores}
             />
           </Col>
-          <Col m={12} className="mb-3">
+          <Col xs={12} m={6} className="mb-3">
             <Formulario 
               colaboradores={colaboradores}
               setAlerta={setAlerta}
