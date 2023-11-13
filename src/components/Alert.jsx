@@ -13,7 +13,7 @@ const Alert = ({ estado }) => {
 
   return (
     <>
-      {estado !== "" ? <AlertaBootstrap variant={estado}>{mensaje}</AlertaBootstrap> : null}
+      {estado !== "" ? <AlertaBootstrap className="mt-3" variant={estado}>{mensaje}</AlertaBootstrap> : null}
     </>
   )
 };
