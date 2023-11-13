@@ -22,7 +22,7 @@ const Listado = ({ busqueda, colaboradores, setColaboradores }) => {
     filtered = colaboradores.filter(colaborador => {
       return (
         colaborador.nombre.toLowerCase().includes(busqueda.toLowerCase())
-        || colaborador.email.toLowerCase().includes(busqueda.toLowerCase())
+        || colaborador.correo.toLowerCase().includes(busqueda.toLowerCase())
         || colaborador.edad.includes(busqueda)
         || colaborador.cargo.toLowerCase().includes(busqueda.toLowerCase())
         || colaborador.telefono.includes(busqueda)
