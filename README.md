@@ -11,7 +11,7 @@ Se encarga la elaboración de una app web que muestre una tabla de colaboradores
 
 ### View
 
-Esta fantástica app puede ser vista [aquí](https://pelafustan.github.com/intro_react-challenge_03).
+Esta fantástica app puede ser vista [aquí](https://pelafustan.github.io/intro_react-challenge_03).
 
 ### Autores
 
