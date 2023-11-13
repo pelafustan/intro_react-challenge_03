@@ -1,8 +1,20 @@
-# React + Vite
+# React I
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafío 3
 
-Currently, two official plugins are available:
+### Contexto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Se encarga la elaboración de una app web que muestre una tabla de colaboradores, manteniendo las siguientes funcionalidades:
+* Un formulario para agregar nuevos colaboradores.
+* Un campo de búsqueda
+* Una forma para eliminar colaboradores
+
+### View
+
+Esta fantástica app puede ser vista [aquí](https://pelafustan.github.com/intro_react-challenge_03).
+
+### Autores
+
+* [Marcela Rojas](https://github.com/mrojas1007)
+* [Patricio Parada](https://github.com/pelafustan)
+
